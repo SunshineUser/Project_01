@@ -1,0 +1,57 @@
+/*this is the real header two, I don't like the text choices or that it doesn't want to get near to the previous boxes, working on that;*/
+
+/*this is my headlines bar, it will segment everything I put into my page*/
+
+h2{
+    
+}
+
+
+h3{
+    /*color settings*/
+    color:rgb(211, 196, 83);
+    background-color: rgb(36, 35, 35);
+
+    /*font settings*/
+    font-family: 'Oswald', sans-serif;
+    font-weight: 900;
+    font-size: 1.5em;
+    text-align: left;
+    
+    /*location settings*/
+    margin-top:0;
+    padding: .10em;
+    display:block;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 7%;
+}
+
+
+.imageText{
+    /*color settings*/
+    color: white;
+
+    /*font settings*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+    font-size: 1.3em;
+    
+    /*location settings*/
+    margin:0 auto;
+    size: 0 auto;
+    margin-left:20px;
+    padding: 0.8em;
+    text-align: left;
+}
+
+.imageText img{
+    float:right;
+    margin-left: .5em;
+}
+.imageText::after{
+    content:"";
+    clear:both;
+    display:table;
+
+}
